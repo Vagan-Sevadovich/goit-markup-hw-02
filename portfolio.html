@@ -1,111 +1,119 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <link rel="stylesheet" href="./css/styles.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Веб студия</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
     <header>
         <!---шапка сайта-->
-        <nav>
-            <a href="index.html"> <span>Web</span> Studio</a>
-            <ul>
-                <li><a href="index.html">Студия</a></li>
-                <li><a href="index.html">Портфолио</a></li>
-                <li><a href="index.html">Контакты</a></li>
+        <nav class="nav">
+            <a class="logo link" href="index.html"> <span class="logo-web">Web</span> Studio</a>
+            <ul class="nav-element list">
+                <li class="nav-list-item">
+                    <a class="nav-list-link link" href="index.html">Студия</a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="nav-list-link link" href="portfolio.html">Портфолио</a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="nav-list-link link" href="index.html">Контакты</a>
+                </li>
             </ul>
         </nav>
         <div>
-            <address>
-            <a href="info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <address class="header-adress">
+            <a class="header-mail link" href="info@devstudio.com">info@devstudio.com</a>
+            <a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
             </address>
         </div>
     </header>
     <main>
         <!--Фильтр услуг-->
         <h1 hidden>список услуг</h1>
-        <ul>
-            <li><button>Все</button></li>
-            <li><button>Веб-сайты</button></li>
-            <li><button>Приложения</button></li>
-            <li><button>Дизайн</button></li>
-            <li><button>Маркетинг</button></li>
+        <ul class="filter-item list">
+            <li class="filter-list"><button class="filter-list-btn">Все</button></li>
+            <li class="filter-list"><button class="filter-list-btn">Веб-сайты</button></li>
+            <li class="filter-list"><button class="filter-list-btn">Приложения</button></li>
+            <li class="filter-list"><button class="filter-list-btn">Дизайн</button></li>
+            <li class="filter-list"><button class="filter-list-btn">Маркетинг</button></li>
         </ul>
         <!--Список услуг-->
-        <ul>
-            <li>
-                <a href=""><img src="./images/portfolio-filters/img-10.jpg" alt=""> 
-                    <h2>Технокряк</h2>
-                    <p>Веб-сайт</p>
+        <ul class="services-list list">
+            <li class="services-list-item">
+                <a class="services-a link" href=""><img src="./images/portfolio-filters/img-10.jpg" alt=""> 
+                    <h2 class="services-list-title">Технокряк</h2>
+                    <p class="services-list-title-p">Веб-сайт</p>
+                </a>
+            </li>
+            <li class="services-list-item">
+                <a class="services-a link" href=""><img src="./images/portfolio-filters/img-11.jpg" alt=""> 
+                    <h2 class="services-list-title">Постер New Orlean vs Golden Star</h2>
+                    <p class="services-list-title-p">Дизайн</p>
+                </a>
+            </li>
+            <li class="services-list-item">
+                <a class="services-a link" href=""><img src="./images/portfolio-filters/img-12.jpg" alt=""> 
+                    <h2 class="services-list-title">Ресторан Seafood</h2>
+                    <p class="services-list-title-p">Приложение</p>
+                </a>
+            </li>
+            <li class="services-list-item">
+                <a class="services-a link" href=""><img src="./images/portfolio-filters/img-13.jpg" alt=""> 
+                    <h2 class="services-list-title">Проект Prime</h2>
+                    <p class="services-list-title-p">Маркетинг</p>
+                </a>
+            </li>
+            <li class="services-list-item">
+                <a class="services-a link" href=""><img src="./images/portfolio-filters/img-14.jpg" alt=""> 
+                    <h2 class="services-list-title">Проект Boxes</h2>
+                    <p class="services-list-title-p">Приложение</p>
+                </a>
+            </li>
+            <li class="services-list-item">
+                <a class="services-a link" href=""><img src="./images/portfolio-filters/img-15.jpg" alt=""> 
+                    <h2 class="services-list-title">Inspiration has no Borders</h2>
+                    <p class="services-list-title-p">Веб-сайт</p>
+                </a>
+            </li>
+            <li class="services-list-item">
+                <a class="services-a link" href=""><img src="./images/portfolio-filters/img-16.jpg" alt=""> 
+                    <h2 class="services-list-title">Издание Limited Edition</h2>
+                    <p class="services-list-title-p">Дизайн</p>
+                </a>
+            </li>
+            <li class="services-list-item">
+                <a class="services-a link" href=""><img src="./images/portfolio-filters/img-17.jpg" alt=""> 
+                    <h2 class="services-list-title">Проект LAB</h2>
+                    <p class="services-list-title-p">Маркетинг</p>
                 </a>
             </li>
             <li>
-                <a href=""><img src="./images/portfolio-filters/img-11.jpg" alt=""> 
-                    <h2>Постер New Orlean vs Golden Star</h2>
-                    <p>Дизайн</p>
-                </a>
-            </li>
-            <li>
-                <a href=""><img src="./images/portfolio-filters/img-12.jpg" alt=""> 
-                    <h2>Ресторан Seafood</h2>
-                    <p>Приложение</p>
-                </a>
-            </li>
-            <li>
-                <a href=""><img src="./images/portfolio-filters/img-13.jpg" alt=""> 
-                    <h2>Проект Prime</h2>
-                    <p>Маркетинг</p>
-                </a>
-            </li>
-            <li>
-                <a href=""><img src="./images/portfolio-filters/img-14.jpg" alt=""> 
-                    <h2>Проект Boxes</h2>
-                    <p>Приложение</p>
-                </a>
-            </li>
-            <li>
-                <a href=""><img src="./images/portfolio-filters/img-15.jpg" alt=""> 
-                    <h2>Inspiration has no Borders</h2>
-                    <p>Веб-сайт</p>
-                </a>
-            </li>
-            <li>
-                <a href=""><img src="./images/portfolio-filters/img-16.jpg" alt=""> 
-                    <h2>Издание Limited Edition</h2>
-                    <p>Дизайн</p>
-                </a>
-            </li>
-            <li>
-                <a href=""><img src="./images/portfolio-filters/img-17.jpg" alt=""> 
-                    <h2>Проект LAB</h2>
-                    <p>Маркетинг</p>
-                </a>
-            </li>
-            <li>
-                <a href=""><img src="./images/portfolio-filters/img-18.jpg" alt=""> 
-                    <h2>Growing Business</h2>
-                    <p>Приложение</p>
+                <a class="services-a link" href=""><img src="./images/portfolio-filters/img-18.jpg" alt=""> 
+                    <h2 class="services-list-title">Growing Business</h2>
+                    <p class="services-list-title-p">Приложение</p>
                 </a>
             </li>
         </ul>
     </main>
     <footer>
         <div>
-            <a href="index.html"> <span>Web</span>  Studio</a>
+            <a class="footer-logo" href="index.html"> <span class="footer-logo-web">Web</span>  Studio</a>
             <address>
-                <ul>
-                    <li> <a href="">г. Киев, пр-т Леси Украинки, 26</a> </li>
-                    <li> <a href="mailto:info@example.com">info@example.com</a></li>
-                    <li> <a href="tel:+380991111111"> +38 099 111 11 11</a></li>
+                <ul class="footer-adress-list list">
+                    <li > <a class="footer-adress-item link"href="">г. Киев, пр-т Леси Украинки, 26</a> </li>
+                    <li > <a class="footer-adress-item link"href="mailto:info@example.com">info@example.com</a></li>
+                    <li > <a class="footer-adress-item link"href="tel:+380991111111"> +38 099 111 11 11</a></li>
                 </ul>
             </address>
         </div>
         <div>
-            <b>присоединяйтесь</b>
-            <ul>
+            <p class="connected"><b>присоединяйтесь</b></p>
+            <ul class="connected-list list">
                 <li>
                     <a href="" aria-label=" иконка инстаграмма"></a>
                 </li>
