@@ -4,6 +4,9 @@ body {
     font-size: 14px;
     color: #212121;
 }
+.current{
+    color: #2196F3;
+}
 .link{
     text-decoration: none;
 }
@@ -30,21 +33,27 @@ body {
     color: #2196F3;
 }
 .nav-list-link{
+    font-style: normal;
     font-weight: 500;
     line-height: 0.87;
     letter-spacing: 0.02em;
     color: #212121;
 }
+
 .nav-list-link:hover,
 .nav-list-link:focus{
     color: #2196F3
 }
+.current{
+    color: #2196F3;
+}
 .header-mail{
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: #757575;
 }
 .header-tel{
     font-weight: 500;
@@ -173,6 +182,7 @@ body {
     color: #FFFFFF;
 }
 .footer-adress-item{
+    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -180,6 +190,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-adress-item1{
+    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
